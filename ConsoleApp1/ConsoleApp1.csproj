@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="RestSharp" Version="106.12.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="clsTest.cs" />
+      <None Include="clsTest.cs" />
+      <Compile Remove="bin\Debug\net5.0\ref\**" />
+      <None Remove="bin\Debug\net5.0\ref\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net5.0\ConsoleApp1" />
+      <Content Include="bin\Debug\net5.0\ConsoleApp1.deps.json" />
+      <Content Include="bin\Debug\net5.0\ConsoleApp1.dll" />
+      <Content Include="bin\Debug\net5.0\ConsoleApp1.pdb" />
+      <Content Include="bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json" />
+      <Content Include="bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json" />
+      <Content Include="bin\Debug\net5.0\ref\ConsoleApp1.dll" />
+      <Content Include="bin\Debug\net5.0\RestSharp.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="bin\Debug\net5.0\ref\**" />
+    </ItemGroup>
+
+</Project>

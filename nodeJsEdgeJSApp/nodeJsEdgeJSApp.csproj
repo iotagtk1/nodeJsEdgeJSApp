@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\node_modules\edge-js\lib\edge.js">
+        <Link>edge.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\101_hello_lambda.js">
+        <Link>samples\101_hello_lambda.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\102_hello_function.js">
+        <Link>samples\102_hello_function.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\103_hello_file.csx">
+        <Link>samples\103_hello_file.csx</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\103_hello_file.js">
+        <Link>samples\103_hello_file.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\104_add7_class.js">
+        <Link>samples\104_add7_class.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\105_add7_dll.js">
+        <Link>samples\105_add7_dll.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\106_marshal_v82clr.js">
+        <Link>samples\106_marshal_v82clr.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\107_marshal_clr2v8.js">
+        <Link>samples\107_marshal_clr2v8.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\108_func.js">
+        <Link>samples\108_func.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\108_lambda.js">
+        <Link>samples\108_lambda.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\109_sync.js">
+        <Link>samples\109_sync.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\110_clr_instance.js">
+        <Link>samples\110_clr_instance.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\111_clr_listener.js">
+        <Link>samples\111_clr_listener.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\201_worker.js">
+        <Link>samples\201_worker.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\202_sql.csx">
+        <Link>samples\202_sql.csx</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\202_sql.js">
+        <Link>samples\202_sql.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\203_x509store.js">
+        <Link>samples\203_x509store.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\204_event_log.js">
+        <Link>samples\204_event_log.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\205_soap.csx">
+        <Link>samples\205_soap.csx</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\205_soap.js">
+        <Link>samples\205_soap.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\206_registry_read.js">
+        <Link>samples\206_registry_read.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\206_registry_write.js">
+        <Link>samples\206_registry_write.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\207_unzip.js">
+        <Link>samples\207_unzip.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\207_zip.js">
+        <Link>samples\207_zip.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\208_convertImage.js">
+        <Link>samples\208_convertImage.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\209_websocket.js">
+        <Link>samples\209_websocket.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\210_windows_authentication.js">
+        <Link>samples\210_windows_authentication.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\211_events.js">
+        <Link>samples\211_events.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\301_cspyfsps.js">
+        <Link>samples\301_cspyfsps.js</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\edge.png">
+        <Link>samples\edge.png</Link>
+      </Content>
+      <Content Include="..\node_modules\edge-js\samples\readme.txt">
+        <Link>samples\readme.txt</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
